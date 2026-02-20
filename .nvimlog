@@ -1,0 +1,15 @@
+WRN 2026-02-20T12:10:52.931 ?.960689   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.960689.0
+WRN 2026-02-20T12:10:58.931 ?.960820   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.960820.0
+WRN 2026-02-20T12:11:08.850 ?.961074   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.961074.0
+WRN 2026-02-20T12:11:37.395 ?.961573   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.961573.0
+WRN 2026-02-20T12:11:37.395 ?.961572   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.961572.0
+WRN 2026-02-20T12:11:37.397 ?.961575   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.961575.0
+WRN 2026-02-20T12:11:37.397 ?.961574   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.961574.0
+WRN 2026-02-20T12:17:02.307 ?.967749   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.967749.0
+WRN 2026-02-20T12:18:05.305 ?.969159   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969159.0
+WRN 2026-02-20T12:18:05.372 ?.969167   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969167.0
+WRN 2026-02-20T12:18:05.372 ?.969166   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969166.0
+WRN 2026-02-20T12:18:05.374 ?.969168   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969168.0
+WRN 2026-02-20T12:18:05.376 ?.969169   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969169.0
+WRN 2026-02-20T12:18:05.377 ?.969170   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969170.0
+WRN 2026-02-20T12:18:05.378 ?.969171   server_start:193: Failed to start server: operation not permitted: /run/user/1000/nvim.969171.0
