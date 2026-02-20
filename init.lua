@@ -956,12 +956,13 @@ require('lazy').setup({
   },
   { -- Highlight, edit, and navigate code
     'nvim-treesitter/nvim-treesitter',
-    build = ':TSUpdate',
-    config = function()
-      require('nvim-treesitter').setup()
-      -- Install parsers for the languages we care about
+    build = function()
+      -- Install parsers on plugin install/update only (not every startup)
       local parsers = { 'bash', 'c', 'cpp', 'diff', 'go', 'html', 'javascript', 'typescript', 'lua', 'luadoc', 'markdown', 'markdown_inline', 'query', 'rust', 'vim', 'vimdoc' }
       require('nvim-treesitter').install(parsers)
+    end,
+    config = function()
+      require('nvim-treesitter').setup()
     end,
   },
 
@@ -985,7 +986,7 @@ require('lazy').setup({
   --    This is the easiest way to modularize your config.
   --
   --  Uncomment the following line and add your plugins to `lua/custom/plugins/*.lua` to get going.
-  -- { import = 'custom.plugins' },
+  { import = 'custom.plugins' },
   --
   -- For additional information with loading, sourcing and examples see `:help lazy.nvim-🔌-plugin-spec`
   -- Or use telescope!
